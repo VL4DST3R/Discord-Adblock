@@ -5,3 +5,13 @@ h3[class^=membersGroup_]:has(span[role="button"]) {
 div[class^=container_] > aside[class^=membersWrap_] > div[class^=members_] > div[role^=list] > div:has(div[class*="openOnHover_"]) {
   display: none;
 }
+
+/* Events list */
+li > div[class^="containerDefault_"] div[class*="link_"][class*="basicChannelRowLink_"] {
+  display: none; /* This hides the empty button */
+}
+
+/* Activities button during call */
+div[aria-label="Play Activities here"] {
+  display: none;
+}
