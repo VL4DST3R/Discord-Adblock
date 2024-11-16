@@ -15,3 +15,8 @@ li > div[class^="containerDefault_"] div[class*="link_"][class*="basicChannelRow
 div[aria-label="Play Activities here"] {
   display: none;
 }
+
+/* Remove `Forward` hover bar button */
+div[class^=hoverBarButton][aria-label=Forward] {
+    display: none;
+}
